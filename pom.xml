@@ -67,7 +67,7 @@
                                <source>17</source>
                                <target>17</target>
                             </configuration>
-		    </plugin>
+		        </plugin>
                         <plugin>
             		    <groupId>org.jacoco</groupId>
                             <artifactId>jacoco-maven-plugin</artifactId>
@@ -93,11 +93,7 @@
                             <configuration>
                                 <argLine>@{argLine}</argLine>
                             </configuration>
-                        </plugin>  
-
-                       </plugin>
-			
-
+                        </plugin> 
                 </plugins>
         </build>
 
